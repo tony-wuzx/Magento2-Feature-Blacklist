@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Zhixing::Core" title="Core" translate="title" module="Zhixing_Blacklist" sortOrder="30" parent="Zhixing_Base::elements"
+             resource="Zhixing_Blacklist::core"/>
+        <add id="Zhixing_Blacklist::mapping" title="Blacklist" translate="title" module="Zhixing_Blacklist"
+             sortOrder="40" parent="Zhixing::Core" action="core/mapping/index" resource="Zhixing_Blacklist::core"/>
+    </menu>
+</config>
